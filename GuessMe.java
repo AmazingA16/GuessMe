@@ -37,12 +37,12 @@ public class GuessMe{
   /*  This is our second constructor. There is only one real difference: in this one we take in an
    *  int which will act as the seed for our Random object. This is used for the tests.
    */
-   /*public GuessMe(int seed){
+   public GuessMe(int seed){
       remainingGuesses = 10;
       wordFound = false;
       word = generateWord();
       rand = new Random(seed);
-   }*/
+   }
    
   /*  This is our play method. It takes in a String called 'str' and compares it to the word the
    *  player is trying to guess 'word'. It returns an int representing the number of letters which
